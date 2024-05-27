@@ -13,7 +13,7 @@ class SumDigPowerTest {
     }
 
     @Test
-    public void test() {
+    void test() {
         System.out.println("Basic Tests");
         testing(1, 10, new long[]{1, 2, 3, 4, 5, 6, 7, 8, 9});
         testing(1, 100, new long[]{1, 2, 3, 4, 5, 6, 7, 8, 9, 89});
